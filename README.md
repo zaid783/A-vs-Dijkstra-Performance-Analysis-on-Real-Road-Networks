@@ -88,10 +88,17 @@ city_name = "Karachi"
 country = "Pakistan"
 
 source_lat =   # Your starting latitude
+
 source_lon = 67.16766  # Your starting longitude
 
 target_lat = 24.81407  # Your destination latitude
 target_lon = 67.01060  # Your destination longitude
+
+source_lon =   # Your starting longitude
+
+target_lat =  # Your destination latitude
+target_lon =   # Your destination longitude
+
 ```
 
 ---
@@ -107,6 +114,7 @@ The project provides detailed performance comparisons including:
 4. **Speedup Factor**: How much faster A* is compared to Dijkstra
 5. **Efficiency Percentage**: Reduction in nodes explored by A*
 
+
 ### Sample Output
 ```
 ============================================================
@@ -118,8 +126,9 @@ PERFORMANCE SUMMARY
 ⚡ A* Speedup:                       2.34x faster
 🎯 Node Efficiency:                 57.3% fewer nodes
 ⏱️  Time Saved:                     145.23 ms
-============================================================
+
 ```
+
 
 ### Visual Outputs
 The project generates high-resolution route comparison images:
@@ -189,6 +198,7 @@ test_routes = [
 
 ---
 
+
 ## 📝 Algorithm Details
 
 ### Dijkstra's Algorithm
@@ -207,6 +217,7 @@ test_routes = [
 ---
 
 ## 🐛 Troubleshooting
+
 
 ### Common Issues
 
@@ -228,22 +239,15 @@ pip install osmnx
 **4. Plot Not Displaying**
 - Plots are saved as PNG files automatically
 - Check the project directory for generated images
-- Uncomment `plt.show()` in line 326 to display plots
 
 ---
 
-## 📚 References
-
-- **OSMnx Documentation**: https://osmnx.readthedocs.io/
-- **NetworkX Documentation**: https://networkx.org/
-- **Dijkstra's Algorithm**: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
-- **A* Search Algorithm**: https://en.wikipedia.org/wiki/A*_search_algorithm
-
----
 
 ## 👨‍💻 Author
 
 Created as a demonstration of pathfinding algorithms on real-world road networks.
+=======
+
 
 ---
 
